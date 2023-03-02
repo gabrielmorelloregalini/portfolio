@@ -9,7 +9,7 @@
 }
 body{
     margin: 0 auto;
-    background-image:url(/img/pared-agrietada-grunge.jpg);
+    background-image:url(../img/pared-agrietada-grunge.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
