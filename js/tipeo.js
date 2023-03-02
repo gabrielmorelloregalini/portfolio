@@ -9,4 +9,5 @@ const typed2 = new Typed('.typed2', {
   strings: ['Lorem ipsum dolor sit amet, consectetur '],
   typeSpeed: 30,
   backSpeed: 0,
+  loop: true
 });

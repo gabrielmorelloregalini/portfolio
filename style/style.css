@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Questrial&family=Roboto+Mono:wght@300;500&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Monsieur+La+Doulaise&family=Oooh+Baby&family=Questrial&family=Roboto+Mono:wght@300;500&family=Satisfy&family=Tilt+Warp&display=swap');
 
 
 /* INDEX.HTML */
@@ -22,7 +22,7 @@ header div nav ol{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    list-style-type: none;    
+    list-style-type: none;
 }
 header div nav ol a{
     text-decoration: none;
@@ -34,14 +34,23 @@ header div nav ol a{
 .titulopagina0{
     color: #faf7f2;
     font-family:'Questrial', sans-serif;
-    font-size: 8vw;
+    font-size: 4.5vw;
     font-weight: bold;
-    letter-spacing: 3.5vw;
+    letter-spacing: 2vw;
     text-rendering: optimizeLegibility;
 }
 .titulopagina0 {
     text-shadow: -1px -1px 1px #0a0909;
     text-shadow: 2px 2px 1px rgb(59, 58, 58);
+}
+#nombre {
+    color:rgb(229, 191, 143);
+}
+.subtitulo0 {
+    font-family: 'Roboto Mono', monospace;
+    color:rgb(216, 214, 214);
+    font-size: 3.5vw;
+    letter-spacing: 1vw;
 }
 .main0{
     flex-grow: 1;
@@ -101,9 +110,10 @@ header div nav ol a{
         justify-items: center;
         align-items: center;
     }
-    .main0 section div h1 {
+    .main0 section div {
         text-align: center;
     }
+
     .main0 section div img{
         width: 200px;
     }
@@ -111,7 +121,6 @@ header div nav ol a{
         font-size: 15px;
     }
 }
-
 /* FIRST */
 .titulopagina1 {
     color: #faf7f2;
@@ -190,15 +199,19 @@ header div nav ol a{
 .botones1 div {
     display: flex;
     justify-content: space-evenly;
-}
-.main1 section div button a {
-    font-size: 30px;
-    padding: 5px 35px;
+    margin-top: 30px;
 }
 .botones1 div button{
     background: fixed;
     border-radius: 50px;
     border-color:#e6e6e6
+}
+.botones1 div button a {
+    font-size: 30px;
+    padding: 5px 35px;
+}
+.botones1 div button i {
+    color: #faf7f2;
 }
 .botones1 div button:hover{
     transform: scale(1.1);
@@ -207,9 +220,6 @@ header div nav ol a{
 .botones1 div button:not(:hover){
     transform: scale(1.0);
     transition: 0.1s ease-out;
-}
-.main1 section div button i {
-    color: #faf7f2;
 }
 .footer1 section {
     display: flex;
@@ -228,7 +238,8 @@ header div nav ol a{
 }
 @media (max-width:632px){
     .titulopagina1{
-        font-size: 35px;
+        font-size: 8vw;
+        letter-spacing: 15px;
         text-align: center;
     }
     .pestañas{
@@ -279,7 +290,6 @@ header div nav ol a{
     overflow: hidden;
     box-shadow: 0px 3px 30px rgb(0 0 0 / 90%);
     border-radius: 4px;
-    
 }
 .articulos2 article figure img{
     position:absolute;
@@ -295,6 +305,12 @@ header div nav ol a{
     left: 0;
     padding: 2vw;
     filter: brightness(100%);
+    height: 100%;
+}
+.contenido2 a {
+    position: absolute;
+    padding: 100%;
+    height: 100%;
 }
 .contenido2 h4{
     color: #faf7f2;
@@ -314,7 +330,6 @@ header div nav ol a{
     padding: 10px;
     background-color: #0a0909;
 }
-
 .articulos2 article:hover {
     scale: 1.1;
     filter: brightness(70%);
@@ -332,9 +347,44 @@ header div nav ol a{
     opacity: 0;
     transition: 500ms ease-in-out;
 }
+.botones2 div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.botones2 div button{
+    background: fixed;
+    border-radius: 50px;
+    border-color:#e6e6e6
+}
+.botones2 div button a {
+    font-size: 30px;
+    padding: 5px 35px;
+}
+.botones2 div button i {
+    color: #faf7f2;
+}
+.botones2 div button:hover{
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+}
+.botones2 div button:not(:hover){
+    transform: scale(1.0);
+    transition: 0.1s ease-out;
+}
+.footer2 section {
+    display: flex;
+    justify-content:center;
+    margin: 12px;
+}
+.footer2 section p {
+    color: #faf7f2;
+    font-family:'Questrial', sans-serif;
+    font-size: 14px;
+}
 @media (max-width: 1000px) {
     .titulopagina2 {
-        font-size: 35px;
+        font-size: 8vw;
         letter-spacing: 15px;
     }
     .articulos2{
@@ -343,5 +393,62 @@ header div nav ol a{
     }
     .articulos2 article figure img{
         width: 85vw;
+    }
+}
+
+/*  THIRD   */
+.titulopagina3 {
+    color: #faf7f2;
+    font-family:'Questrial', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 25px;
+    text-rendering: optimizeLegibility;
+    text-shadow: -1px -1px 1px #0a0909;
+    text-shadow: 2px 2px 1px rgb(59, 58, 58);
+
+    margin: 10px;
+    text-align: center;
+}
+
+.botones3 div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.botones3 div button{
+    background: fixed;
+    border-radius: 50px;
+    border-color:#e6e6e6
+}
+.botones3 div button a {
+    font-size: 30px;
+    padding: 5px 35px;
+}
+.botones3 div button i {
+    color: #faf7f2;
+}
+.botones3 div button:hover{
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+}
+.botones3 div button:not(:hover){
+    transform: scale(1.0);
+    transition: 0.1s ease-out;
+}
+.footer3 section {
+    display: flex;
+    justify-content:center;
+    margin: 12px;
+}
+.footer3 section p {
+    color: #faf7f2;
+    font-family:'Questrial', sans-serif;
+    font-size: 14px;
+}
+@media (max-width: 1000px) {
+    .titulopagina3 {
+        font-size: 8vw;
+        letter-spacing: 15px;
     }
 }
